@@ -1,6 +1,6 @@
-#Problema:
+# Problema:
 
-#####Suponha que existem arquivos texto cujos conteúdos precisam ser lidos e exibidos na tela. O formato dos arquivos é o seguinte:
+##### Suponha que existem arquivos texto cujos conteúdos precisam ser lidos e exibidos na tela. O formato dos arquivos é o seguinte:
 
  
 ```
@@ -28,7 +28,7 @@ John Howard
 
 * A partir da quarta linha a definição estabelecida na primeira linha começa a ser descrita.
 
-#Proposta
+# Proposta
 
 Crie um design que permita que o conteúdo dos arquivos seja lido e exibido na tela. 
 
