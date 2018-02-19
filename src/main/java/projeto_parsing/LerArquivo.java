@@ -12,16 +12,21 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class LerArquivo {
-    private List<String> linhasLidas;
+    private final List<String> linhasLidas;
 
-    public LerArquivo(){
+    public LerArquivo(final String filePath, final String fileName){
         this.linhasLidas = new ArrayList<>();
+        Path caminho = Paths.get(filePath.concat(fileName));
+        Stream<String> linhas = null;
+        try {
+            linhas = Files.lines(caminho);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        linhas.forEach(linhasLidas::add);
     }
 
-    public List<String> mensagemLida(final String filePath, final String fileName) throws IOException {
-        Path caminho = Paths.get(filePath.concat(fileName));
-        Stream<String> linhas = Files.lines(caminho);
-        linhas.forEach(linhasLidas::add);
+    public List<String> getLinhasLidas() {
         return Collections.unmodifiableList(linhasLidas);
     }
 }

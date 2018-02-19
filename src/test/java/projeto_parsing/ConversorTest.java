@@ -12,14 +12,15 @@ public class ConversorTest {
 
     @Test
     public void testeConverterParaInteger() throws IOException {
-        LerArquivo la = new LerArquivo();
+
 
         Conversor conversor = new Conversor();
 
         String filePath = "C:\\Users\\Focusnetworks\\Documents\\GitHub\\projeto_parsing\\";
         String fileName = "teste.txt";
+        LerArquivo la = new LerArquivo(filePath, fileName);
 
-        String valorParaConverter = la.mensagemLida(filePath,fileName).get(0);
+        String valorParaConverter = la.getLinhasLidas().get(0);
 
         int valorEsperado = 1;
         int valorLido = conversor.ConverterParaInteger(valorParaConverter);

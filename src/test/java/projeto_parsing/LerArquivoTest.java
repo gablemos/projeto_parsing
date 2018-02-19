@@ -2,8 +2,6 @@ package projeto_parsing;
 
 import org.junit.Test;
 
-import org.junit.Test;
-
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -15,11 +13,11 @@ public class LerArquivoTest {
 
     @Test
     public void testLeitura() throws IOException {
-        LerArquivo la = new LerArquivo();
+
         String filePath = "C:\\Users\\Focusnetworks\\Documents\\GitHub\\projeto_parsing\\";
         String fileName = "teste.txt";
-
-        List<String> valorLido = la.mensagemLida(filePath,fileName);
+        LerArquivo lerArquivo = new LerArquivo(filePath, fileName);
+        List<String> valorLido = lerArquivo.getLinhasLidas();
 
         List<String> valorEsperado = Arrays.asList(
                 "1",
