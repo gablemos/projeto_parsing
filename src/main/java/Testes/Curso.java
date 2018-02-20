@@ -1,4 +1,4 @@
-package projeto_parsing.Testes;
+package Testes;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

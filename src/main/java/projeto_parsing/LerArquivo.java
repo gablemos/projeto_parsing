@@ -18,11 +18,13 @@ public class LerArquivo {
         this.linhasLidas = new ArrayList<>();
         Path caminho = Paths.get(filePath.concat(fileName));
         Stream<String> linhas = null;
+
         try {
             linhas = Files.lines(caminho);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         linhas.forEach(linhasLidas::add);
     }
 

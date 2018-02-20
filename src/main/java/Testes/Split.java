@@ -1,4 +1,4 @@
-package projeto_parsing.Testes;
+package Testes;
 
 import java.util.ArrayList;
 import java.util.Arrays;

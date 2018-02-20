@@ -1,4 +1,4 @@
-package projeto_parsing.Testes;
+package Testes;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

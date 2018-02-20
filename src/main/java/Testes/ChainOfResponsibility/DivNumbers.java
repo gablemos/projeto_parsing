@@ -1,4 +1,4 @@
-package projeto_parsing.Testes.ChainOfResponsibility;
+package Testes.ChainOfResponsibility;
 
 public class DivNumbers implements Chain {
     private Chain nextInChain;
