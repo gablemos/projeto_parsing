@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="acb62dde-2653-4fe6-88e4-f5872788f38d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Conversor.java" afterPath="$PROJECT_DIR$/src/main/java/projeto_parsing/Conversor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/LerArquivo.java" afterPath="$PROJECT_DIR$/src/main/java/projeto_parsing/LerArquivo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/AddNumbers.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/AddNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/Chain.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/Chain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/DemoChain.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/DemoChain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/DivNumbers.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/DivNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/MultNumbers.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/MultNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/Numbers.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/Numbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/ChainOfResponsibility/SubNumbers.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/ChainOfResponsibility/SubNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/Curso.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/Curso.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/LeituraArquivo.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/LeituraArquivo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/LinhaParsing.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/LinhaParsing.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projeto_parsing/Testes/Split.java" afterPath="$PROJECT_DIR$/src/main/java/Testes/Split.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,17 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conversor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conversor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/projeto_parsing/Conversor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -336,7 +323,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projetos/DesignPattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Design-Patterns" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
@@ -593,7 +580,7 @@
       <workItem from="1518721226047" duration="57000" />
       <workItem from="1518721366891" duration="8130000" />
       <workItem from="1518802952405" duration="8238000" />
-      <workItem from="1519046551633" duration="24556000" />
+      <workItem from="1519046551633" duration="25713000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, Start Project">
       <created>1518721466543</created>
@@ -637,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519066362830</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="versão 1.0">
+      <created>1519150537841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1519150537841</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -673,10 +667,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40981000" />
+    <option name="totallyTimeSpent" value="42138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -691,7 +686,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16414523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16414523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -719,7 +714,8 @@
     <MESSAGE value="Update readme" />
     <MESSAGE value="Conversor String para Float e para Integer OK" />
     <MESSAGE value="Todos os conversores OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todos os conversores OK" />
+    <MESSAGE value="versão 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="versão 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1104,6 +1100,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/projeto_parsing/Conversor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1111,14 +1115,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/projeto_parsing/Conversor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
